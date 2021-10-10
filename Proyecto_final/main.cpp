@@ -22,9 +22,9 @@ void vinicial(){
 
 for(int i =1; i<=y; i++){
     for(int j =1; j<=x; j++){
-        cout << "|" << m[i][j];
+        cout << "   |  " << m[i][j];
     }
-    cout << "|" << v[i] << "|" << endl;
+    cout << "   |  " << v[i] << "   |   " << endl;
 }
 
 }
