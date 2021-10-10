@@ -12,9 +12,9 @@ int x,y;
 
 int main()
 {
-    vinicial();
     cyf();
     ingreso();
+    vinicial();
     return 0;
 }
 
@@ -41,6 +41,7 @@ void ingreso(){
     cout << "\nIngrese el valor del vector resultante en la posicion: V["<<i<<"]:";cin>>v[i];
 }
 
+    system("cls");
 }
 
 void cyf(){
