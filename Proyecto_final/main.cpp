@@ -6,16 +6,23 @@ using namespace std;
 void ingreso();
 void cyf();
 
-double m[100][100];
+double v[100][100];
 int x,y;
 
 int main()
 {
     cyf();
+    ingreso();
     return 0;
 }
 
 void ingreso(){
+
+    for(int i =1; i<=x; i++){
+        for(int j =1; j<=y; j++){
+            cout << "\nIngrese el valor del vector en la posicion: V["<<i<<"]["<<j<<"]: ";cin>>v[i][j];
+        }
+    }
 
 }
 
