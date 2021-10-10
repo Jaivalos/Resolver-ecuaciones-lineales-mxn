@@ -12,9 +12,21 @@ int x,y;
 
 int main()
 {
+    vinicial();
     cyf();
     ingreso();
     return 0;
+}
+
+void vinicial(){
+
+for(int i =0; i<=x; i++){
+    for(int j =0; j<=y; j++){
+        cout << "|" << m[i][j];
+    }
+    cout << "|" << v[i] << "|" << endl;
+}
+
 }
 
 void ingreso(){
