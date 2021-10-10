@@ -20,8 +20,8 @@ int main()
 
 void vinicial(){
 
-for(int i =0; i<=x; i++){
-    for(int j =0; j<=y; j++){
+for(int i =1; i<=y; i++){
+    for(int j =1; j<=x; j++){
         cout << "|" << m[i][j];
     }
     cout << "|" << v[i] << "|" << endl;
@@ -31,8 +31,8 @@ for(int i =0; i<=x; i++){
 
 void ingreso(){
 
-    for(int i =1; i<=x; i++){
-        for(int j =1; j<=y; j++){
+    for(int i =1; i<=y; i++){
+        for(int j =1; j<=x; j++){
             cout << "\nIngrese el valor de la matriz en la posicion: M["<<i<<"]["<<j<<"]: ";cin>>m[i][j];
         }
     }
